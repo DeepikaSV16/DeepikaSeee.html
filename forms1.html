@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        input,label,p,textarea{
+            margin-left: 40px;
+        }
+        button{
+            margin-left: 40px;
+            /* padding: 15px;; */
+        }
+      </style>
+    </head>
+    <body>
+        <ul>
+            <li>User can select ONLY ONE of a limited number of choices in radio button</li>
+        </ul>
+        <input type="text" name="name" placeholder="Name"><br>
+        <br>
+        <input type="email" name="Email" placeholder="Email"><br>
+        <br>
+        <input type="password" name="password" placeholder="Password"><br>
+        <br>
+        <label for="DOB">DOB: </label><input style="margin: auto;" type="date" name="DOB" placeholder="dd-mm-yyyy"><br>
+        <br>
+        <label>Gender: </label>
+        <input style="margin:5px;"  type="radio" id="Male" name="gender">Male
+        <input style="margin:5px;" type="radio" id="Female" name="gender">Female
+        <input style="margin: 5px;" type="radio" id="Other" name="gender">Other
+        <br>
+        <p>Remarks:</p>
+        <textarea placeholder="Please enter your additional remarks(if any)"></textarea>
+        <br>
+        <button type="submit" >Submit</button>
+    </body>
+</html>
